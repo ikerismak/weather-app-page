@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css"
+      />
+      <link rel="stylesheet" href="./public/styles.css">
+    <title>Iker Weather</title>
+  </head>
+  <body>
+    <nav>
+        <ul>
+          <li><a href="#" class="secondary"></a></li>
+        </ul>
+        <ul>
+          <li><strong>WeatherIker</strong></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="secondary"></a></li>
+        </ul>
+      </nav>
+
+    <main class="container">
+      <form id="form" action="">
+        <label for=""
+          >City weather
+          <input id="input" required type="text" placeholder="Enter City" />
+          <small>Exmaple: Mexico city</small>
+        </label>
+
+        <button type="submit" id="submit">Search weather</button>
+      </form>
+
+      <div>
+        <pre id="results">
+
+        </pre>
+
+        <div class="info-container">
+            <img src="./public/icons/weather.png" id="icon" alt="">
+            <label class="tittle-info" for=""> Location:</label>
+            <p id="location"></p>
+            <label class="tittle-info" for=""> Weather:</label>
+            <p id="weather"></p>
+            <label class="tittle-info" for=""> Temperature:</label>
+            <p id="temperature"></p>
+            <label class="tittle-info" for="">Max:</label>
+            <p id="max"></p>
+            <label class="tittle-info" for="">Min:</label>
+            <p id="min"></p>
+
+            <label class="tittle-info" for=""> Chill-temperature:</label>
+            <p id="chill"></p>
+            <label class="tittle-info" for=""> Description:</label>
+            <p id="description"></p>
+
+            <label class="tittle-info" for=""> Humidity:</label>
+            <p id="humidity"></p>
+            <label class="tittle-info" for=""> Wind speed:</label>
+            <p id="windspeed"></p>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

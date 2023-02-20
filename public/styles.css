@@ -1,0 +1,23 @@
+.info-container{
+    background: rgba(56, 65, 87, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(19, 23, 77, 0.37);
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+
+}
+#icon{
+
+    width: 150px;
+}
+.tittle-info{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
