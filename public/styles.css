@@ -7,17 +7,61 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 30px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;;
 
 }
 #icon{
 
-    width: 150px;
+    width: 200px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+nav{
+    margin: -50px;
+}
+
+.header-image{
+    width: 400px;
+}
+
+.image-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
 .tittle-info{
-    color: white;
+    color: rgba(208, 208, 208, 0.805);
     font-weight: bolder;
+    font-size: 30px;
+}
+
+.right-container{
+
+    margin-left: 80px;
+
+
+}
+
+.left-container{
+
+    margin-left: 80px;
+
+}
+
+.left-container p{
+
     font-size: 20px;
+
+}
+
+
+.data-container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
