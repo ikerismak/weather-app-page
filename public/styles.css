@@ -17,11 +17,13 @@
 }
 
 nav{
-    margin: -50px;
+    margin: -20px;
+
 }
 
 .header-image{
     width: 200px;
+    border-bottom: solid 3px rgba(172, 172, 172, 0.134);
 }
 
 .image-container{
