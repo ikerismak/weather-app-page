@@ -10,7 +10,7 @@ const key = "5e61299d7b98d1cf93b7c56a23bf210b";
 const getData = async (city) => {
   const response = await fetch(
 
-    `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${key}`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${key}`
 
   );
   const data = await response.json();
